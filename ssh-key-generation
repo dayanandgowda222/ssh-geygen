@@ -1,0 +1,10 @@
+> this is to generate
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+note: 
+replace your github emailid 
+-t rsa specifies the type of key to create, in this case, an RSA key.
+-b 4096 specifies the length of the key in bits.
+-C "your_email@example.com" adds a comment with your email address.
+
+> this is to see the generated key
+cat ~/.ssh/id_rsa.pub
